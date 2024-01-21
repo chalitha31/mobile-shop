@@ -1,0 +1,1000 @@
+                                        .logo1 {
+                                            height: 200px;
+                                            background-image: url("YF1.png");
+                                            background-repeat: no-repeat;
+                                            background-position: center;
+                                            background-size: contain;
+                                            margin-top: 10px;
+                                        }
+                                        
+                                        .icon {
+                                            color: red;
+                                        }
+                                        
+                                        .span {
+                                            /* margin-right: 350px; */
+                                            font-size: 14px;
+                                            margin-top: -100px;
+                                            /* margin-left: 10px; */
+                                        }
+                                        
+                                        .error {
+                                            outline: solid;
+                                            outline-width: 2px;
+                                            outline-color: rgb(189, 20, 20);
+                                            padding: 13px 20px;
+                                            padding-left: 55px;
+                                            height: 48px;
+                                            width: 100%;
+                                            font-weight: 500;
+                                            border-radius: 4px;
+                                            font-size: 14px;
+                                            line-height: 22px;
+                                            letter-spacing: 0.5px;
+                                            color: #c4c3ca;
+                                            background-color: #1f2029;
+                                            border: none;
+                                            -webkit-transition: all 200ms linear;
+                                            transition: all 200ms linear;
+                                            box-shadow: 0 4px 8px 0 rgba(21, 21, 21, .2);
+                                        }
+                                        
+                                        .true {
+                                            outline: solid;
+                                            outline-width: 2px;
+                                            outline-color: rgb(7, 136, 56);
+                                            padding: 13px 20px;
+                                            padding-left: 55px;
+                                            height: 48px;
+                                            width: 100%;
+                                            font-weight: 500;
+                                            border-radius: 4px;
+                                            font-size: 14px;
+                                            line-height: 22px;
+                                            letter-spacing: 0.5px;
+                                            color: #c4c3ca;
+                                            background-color: #1f2029;
+                                            border: none;
+                                            -webkit-transition: all 200ms linear;
+                                            transition: all 200ms linear;
+                                            box-shadow: 0 4px 8px 0 rgba(21, 21, 21, .2);
+                                        }
+                                        
+                                        .label1 {
+                                            font-size: 16px;
+                                        }
+                                        /* .carticon {
+    height: 25px;
+    background-image: url("resources/cart-plus.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+} */
+                                        
+                                        .back1,
+                                        .back2,
+                                        .back3,
+                                        .back4 {
+                                            z-index: 1;
+                                            height: 730px;
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            background-position: center;
+                                            background-attachment: fixed;
+                                        }
+                                        
+                                        .back1 {
+                                            background-image: linear-gradient( #1d1d23 0%, rgba(0, 0, 0, 0.28) 50%), url("resources/bak1.png");
+                                        }
+                                        
+                                        .back4 {
+                                            height: 650px;
+                                            background-image: linear-gradient( #1d1d23 0%, rgba(0, 0, 0, 0.28) 100%), url("resources/Samsung-Galaxy-Note-10.png");
+                                        }
+                                        
+                                        .back3 {
+                                            background-image: linear-gradient( #1d1d23 0%, rgba(0, 0, 0, 0.28) 50%), url("resources/re.jpg");
+                                        }
+                                        
+                                        .back2 {
+                                            height: 900px;
+                                            opacity: 0.8;
+                                            background-image: linear-gradient( #1d1d23 0%, rgba(0, 0, 0, 0.28) 70%), url("resources/pexels-photo-47261.jpeg");
+                                        }
+                                        
+                                        .tran,
+                                        .tran2last,
+                                        .tran2 {
+                                            z-index: 2;
+                                            width: 0;
+                                            height: 0;
+                                            margin-top: -30px;
+                                            border-left: 250px solid transparent;
+                                            border-right: 250px solid transparent;
+                                        }
+                                        
+                                        .tran {
+                                            border-bottom: solid 30px white;
+                                        }
+                                        
+                                        .tran2 {
+                                            border-bottom: solid 30px black;
+                                        }
+                                        
+                                        .tran2last {
+                                            border-bottom: solid 30px #c4c3ca;
+                                        }
+                                        
+                                        .socialbackground {
+                                            background-color: #c4c3ca;
+                                        }
+                                        
+                                        .lastd {
+                                            background-color: #5c5c5f;
+                                        }
+                                        
+                                        .tranrotate,
+                                        .tranrotate2 {
+                                            z-index: 2;
+                                            width: 0;
+                                            height: 0;
+                                            margin-bottom: -30px;
+                                            border-left: 250px solid transparent;
+                                            border-right: 250px solid transparent;
+                                        }
+                                        
+                                        .tranrotate {
+                                            border-top: solid 30px white;
+                                        }
+                                        
+                                        .tranrotate2 {
+                                            border-top: solid 30px black;
+                                        }
+                                        
+                                        .logo-img {
+                                            height: 150px;
+                                            width: 100px;
+                                            background-image: url(resources/Logo.png);
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            background-position: center;
+                                        }
+                                        
+                                        .logo-head {
+                                            /* position: absolute; */
+                                            height: 50px;
+                                            width: 50px;
+                                            background-image: url("resources/Logo.png");
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            background-position: center;
+                                        }
+                                        
+                                        .qty::-webkit-inner-spin-button,
+                                        .qty::-webkit-outer-spin-button {
+                                            -webkit-appearance: none;
+                                            margin: 0;
+                                        }
+                                        
+                                        .qty {
+                                            -moz-appearance: textfield;
+                                        }
+                                        
+                                        .cimg {
+                                            height: 1500px;
+                                            /* awidth: 150px; */
+                                            background-image: url(resources/lockbackground1.jpg);
+                                            background-repeat: no-repeat;
+                                            background-size: contain;
+                                            background-position: center;
+                                        }
+                                        
+                                        .fs {
+                                            font-size: 80px;
+                                        }
+                                        
+                                        @media only screen and (max-width: 700px) {
+                                            .fs {
+                                                font-size: 50px;
+                                            }
+                                        }
+                                        
+                                        .link2 {
+                                            text-decoration: none;
+                                            font-size: 30px;
+                                            font-weight: bold;
+                                            display: inline-block;
+                                            position: relative;
+                                            /* transition: width 2s; */
+                                        }
+                                        
+                                        .link2::after {
+                                            content: '';
+                                            position: absolute;
+                                            width: 100%;
+                                            transform: scaleX(0);
+                                            height: 2px;
+                                            bottom: 0;
+                                            left: 0;
+                                            background-color: #070707;
+                                            transform-origin: bottom right;
+                                            transition: transform 0.25s ease-out;
+                                        }
+                                        
+                                        .link2:hover::after {
+                                            transform: scaleX(1);
+                                            transform-origin: bottom left;
+                                            /* width: 100px; */
+                                        }
+                                        
+                                        .link3 {
+                                            text-decoration: none;
+                                            font-size: 14px;
+                                            font-weight: bold;
+                                            display: inline-block;
+                                            position: relative;
+                                        }
+                                        
+                                        .link3::after {
+                                            content: '';
+                                            position: absolute;
+                                            width: 100%;
+                                            transform: scaleX(0);
+                                            height: 2px;
+                                            bottom: 0;
+                                            left: 0;
+                                            background-color: #8f1717;
+                                            transform-origin: bottom right;
+                                            transition: transform 0.25s ease-out;
+                                        }
+                                        
+                                        .link3:hover::after {
+                                            transform: scaleX(1);
+                                            transform-origin: bottom left;
+                                        }
+                                        
+                                        .card-img-top {
+                                            height: 26vh;
+                                        }
+                                        
+                                        .f {
+                                            font-size: 150px
+                                        }
+                                        
+                                        .f:hover {
+                                            color: rgb(16, 99, 224);
+                                        }
+                                        
+                                        .t {
+                                            font-size: 40px;
+                                            font-weight: bold
+                                        }
+                                        
+                                        .b {
+                                            border-radius: 40px;
+                                            font-weight: bold;
+                                            border: 3px double;
+                                        }
+                                        
+                                        .samsung,
+                                        .apple,
+                                        .huawei,
+                                        .mi,
+                                        .oneplus,
+                                        .oppo,
+                                        .vivo {
+                                            background-repeat: no-repeat;
+                                            background-size: contain;
+                                            background-position: center;
+                                            filter: grayscale(100%);
+                                            -webkit-filter: grayscale(100%);
+                                        }
+                                        
+                                        .samsung:hover,
+                                        .apple:hover,
+                                        .huawei:hover,
+                                        .mi:hover,
+                                        .oneplus:hover,
+                                        .oppo:hover,
+                                        .vivo:hover {
+                                            background-repeat: no-repeat;
+                                            background-size: contain;
+                                            background-position: center;
+                                            filter: grayscale(0%);
+                                            -webkit-filter: grayscale(0%);
+                                        }
+                                        
+                                        .apple {
+                                            height: 70px;
+                                            /* background-image: url(resources/Apple.png); */
+                                        }
+                                        
+                                        .huawei {
+                                            height: 70px;
+                                            /* background-image: url(resources/huwavi.png); */
+                                        }
+                                        
+                                        .mi {
+                                            height: 60px;
+                                            /* background-image: url(resources/xiaomi-logo.png); */
+                                        }
+                                        
+                                        .samsung {
+                                            height: 50px;
+                                            /* background-image: url(resources/Samsunglogo.png); */
+                                        }
+                                        
+                                        .oneplus {
+                                            height: 40px;
+                                            /* background-image: url(resources/oneplus-282590.png); */
+                                        }
+                                        
+                                        .oppo {
+                                            height: 25px;
+                                            /* background-image: url(resources/Oppo-Logo-Png.png); */
+                                        }
+                                        
+                                        .vivo {
+                                            height: 40px;
+                                            /* background-image: url(resources/vivologo.png); */
+                                        }
+                                        /* .col1 {
+    text-align: center;
+    width: 10%;
+} */
+                                        /* rotate star */
+                                        
+                                        .rotate {
+                                            animation: rotation 8s infinite linear;
+                                        }
+                                        
+                                        @keyframes rotation {
+                                            from {
+                                                transform: rotate(0deg);
+                                            }
+                                            to {
+                                                transform: rotate(359deg);
+                                            }
+                                        }
+                                        /* rotate star */
+                                        /* .sam {
+    height: 200px;
+    background-image: url(resources/Samsung.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+} */
+                                        
+                                        .container {
+                                            position: relative;
+                                            width: 50%;
+                                            max-width: 200px;
+                                        }
+                                        
+                                        .image {
+                                            display: block;
+                                            /* width: 20%; */
+                                            height: 200px;
+                                            background-repeat: no-repeat;
+                                            background-size: contain;
+                                            background-position: center;
+                                        }
+                                        
+                                        .overlay {
+                                            position: absolute;
+                                            bottom: 10px;
+                                            background: rgb(0, 0, 0);
+                                            background: rgba(0, 0, 0, 0.5);
+                                            /* Black see-through */
+                                            color: #f1f1f1;
+                                            width: 175px;
+                                            height: 50px;
+                                            transition: .5s ease;
+                                            opacity: 0;
+                                            color: white;
+                                            font-size: 15px;
+                                            /* padding: 20px; */
+                                            text-align: center;
+                                            /* cursor: pointer; */
+                                            border-radius: 10px;
+                                        }
+                                        
+                                        .container:hover .overlay {
+                                            opacity: 1;
+                                            cursor: pointer;
+                                        }
+                                        
+                                        .search {
+                                            font-style: italic;
+                                        }
+                                        
+                                        .span1 {
+                                            height: 4px;
+                                            background-color: rgb(243, 243, 243)
+                                        }
+                                        
+                                        .faa {
+                                            font-size: 100px;
+                                            /* margin-top: -35px; */
+                                            color: white;
+                                            padding: 0 40px 0 40px;
+                                        }
+                                        /* contact Model */
+                                        /* The Modal (background) */
+                                        
+                                        .modal {
+                                            display: none;
+                                            /* Hidden by default */
+                                            position: fixed;
+                                            /* Stay in place */
+                                            z-index: 3;
+                                            /* Sit on top */
+                                            padding-top: 100px;
+                                            /* Location of the box */
+                                            left: 0;
+                                            top: 0;
+                                            width: 100%;
+                                            /* Full width */
+                                            height: 100%;
+                                            /* Full height */
+                                            overflow: auto;
+                                            /* Enable scroll if needed */
+                                            background-color: rgb(0, 0, 0);
+                                            /* Fallback color */
+                                            background-color: rgba(0, 0, 0, 0.4);
+                                            /* Black w/ opacity */
+                                        }
+                                        /* Modal Content */
+                                        
+                                        .modal-content {
+                                            position: relative;
+                                            background-color: #fefefe;
+                                            margin: auto;
+                                            padding: 0;
+                                            border: 1px solid #888;
+                                            width: 65%;
+                                            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                                            -webkit-animation-name: animatetop;
+                                            -webkit-animation-duration: 0.4s;
+                                            animation-name: animatetop;
+                                            animation-duration: 0.4s
+                                        }
+                                        /* Add Animation */
+                                        
+                                        @-webkit-keyframes animatetop {
+                                            from {
+                                                top: -300px;
+                                                opacity: 0
+                                            }
+                                            to {
+                                                top: 0;
+                                                opacity: 1
+                                            }
+                                        }
+                                        
+                                        @keyframes animatetop {
+                                            from {
+                                                top: -300px;
+                                                opacity: 0
+                                            }
+                                            to {
+                                                top: 0;
+                                                opacity: 1
+                                            }
+                                        }
+                                        /* The Close Button */
+                                        /* social media */
+                                        
+                                        .close {
+                                            color: white;
+                                            float: right;
+                                            font-size: 28px;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .close:hover,
+                                        .close:focus {
+                                            color: #000;
+                                            text-decoration: none;
+                                            cursor: pointer;
+                                        }
+                                        
+                                        .modal-header {
+                                            padding: 2px 16px;
+                                            background-color: #5cb85c;
+                                            color: white;
+                                        }
+                                        
+                                        .modal-body {
+                                            padding: 2px 16px;
+                                        }
+                                        
+                                        .modal-footer {
+                                            padding: 2px 16px;
+                                            background-color: #5cb85c;
+                                            color: white;
+                                        }
+                                        /* contact Model */
+                                        /* social media */
+                                        /* social media */
+                                        
+                                        .div1 {
+                                            background-color: transparent;
+                                            width: 15vw;
+                                            height: 13px;
+                                            border: none;
+                                            border-top: solid 3px white;
+                                            border-bottom: solid 3px white;
+                                        }
+                                        
+                                        .divmain {
+                                            width: auto;
+                                            height: auto;
+                                            display: flex;
+                                            align-items: center;
+                                            margin-top: 50px;
+                                        }
+                                        
+                                        .pm1 {
+                                            height: 65px;
+                                            background-image: url("resources/paymentmethodimages/paypal_img.png");
+                                            background-repeat: no-repeat;
+                                            background-size: contain;
+                                        }
+                                        
+                                        .pm2 {
+                                            height: 65px;
+                                            background-image: url("resources/paymentmethodimages/visa_img.png");
+                                            background-repeat: no-repeat;
+                                            background-size: contain;
+                                        }
+                                        
+                                        .pm3 {
+                                            height: 65px;
+                                            background-image: url("resources/paymentmethodimages/mastercard_img.png");
+                                            background-repeat: no-repeat;
+                                            background-size: contain;
+                                        }
+                                        
+                                        .pm4 {
+                                            height: 65px;
+                                            background-image: url("resources/paymentmethodimages/american_express_img.png");
+                                            background-repeat: no-repeat;
+                                            background-size: contain;
+                                        }
+                                        /* Advance search */
+                                        
+                                        main {
+                                            background-color: #1260d4;
+                                            /* width: 600px; */
+                                            margin: 20px auto;
+                                            min-height: fit-content;
+                                            padding: 5px 0;
+                                            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+                                            color: #fff;
+                                        }
+                                        
+                                        #toggle {
+                                            display: none;
+                                        }
+                                        
+                                        .adlable {
+                                            display: block;
+                                            text-align: center;
+                                            /* border-bottom: 5px dashed #666; */
+                                            color: #000;
+                                            width: fit-content;
+                                            margin-left: auto;
+                                            margin-right: auto;
+                                            transition: 200ms;
+                                        }
+                                        
+                                        .adlable:hover {
+                                            filter: invert(100%);
+                                        }
+                                        
+                                        .adlable::before {
+                                            content: "ADVANCED SEARCH";
+                                            font-weight: 500;
+                                            font-size: 22px;
+                                            display: inline-block;
+                                        }
+                                        
+                                        .adlable::after {
+                                            content: url("resources/DwnA.png");
+                                            height: 10px;
+                                            padding: 0 0 0 10px;
+                                            font-weight: 500;
+                                            display: inline-block;
+                                        }
+                                        
+                                        #expand {
+                                            /* height: 0; */
+                                            max-height: 0;
+                                            transition: max-height 1.70s ease-out;
+                                            overflow: hidden;
+                                            /* transition: 500ms; */
+                                            /* background: url(cedrik-pazmino-alien-planet-4k-0-00-00-00-2.jpg);
+                    background-size: 100%;
+                    background-repeat: no-repeat; */
+                                            color: #fff;
+                                        }
+                                        
+                                        .adp {
+                                            text-align: center;
+                                            margin: 0;
+                                        }
+                                        
+                                        .adbefore {
+                                            height: fit-content;
+                                            transition: 200ms;
+                                        }
+                                        
+                                        #toggle:checked~#expand {
+                                            max-height: 1600px;
+                                            transition: max-height 2.00s ease-in;
+                                            /* height: auto; */
+                                        }
+                                        /* @media only screen and (max-width: 992px) {
+                    #toggle:checked~#expand {
+                        height: 1260px;
+                    }
+                } */
+                                        
+                                        #toggle:checked~.adbefore {
+                                            height: 0;
+                                            overflow: hidden;
+                                        }
+                                        
+                                        #toggle:checked~.adlable::before {
+                                            content: "SHOW LESS";
+                                        }
+                                        
+                                        #toggle:checked~.adlable::after {
+                                            content: url("resources/UpA.png");
+                                        }
+                                        /* Advance search */
+                                        /* pagination */
+                                        
+                                        .pagination {
+                                            display: inline-block;
+                                            display: flex;
+                                            justify-content: center;
+                                        }
+                                        
+                                        .pagination a {
+                                            color: black;
+                                            float: left;
+                                            padding: 8px 16px;
+                                            text-decoration: none;
+                                        }
+                                        
+                                        .pagination a.active {
+                                            background-color: #4CAF50;
+                                            color: white;
+                                            border-radius: 5px;
+                                        }
+                                        
+                                        .pagination a:hover:not(.active) {
+                                            background-color: #ddd;
+                                            border-radius: 5px;
+                                        }
+                                        /* pagination */
+                                        
+                                        .emptysearch {
+                                            height: 400px;
+                                            background-image: url(resources/empty.webp);
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            background-position: center;
+                                        }
+                                        
+                                        .adres {
+                                            margin: 2px 18px 0 18px;
+                                        }
+                                        
+                                        .title01 {
+                                            font-family: "HoneyScript";
+                                            font-size: 30px;
+                                            letter-spacing: 3px;
+                                        }
+                                        
+                                        .title02 {
+                                            font-size: 25px;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .label2 {
+                                            font-weight: bold;
+                                            cursor: pointer;
+                                        }
+                                        
+                                        .cart-icon {
+                                            height: 25px;
+                                            background-image: url("resources/cartico.svg");
+                                            background-repeat: no-repeat;
+                                            background-size: contain;
+                                            background-position: center;
+                                        }
+                                        
+                                        .hr-break-1 {
+                                            border-style: solid;
+                                            border-color: rgb(194, 190, 190);
+                                            border-width: 4px;
+                                        }
+                                        
+                                        .search-btn {
+                                            height: 43px;
+                                        }
+                                        
+                                        .link-1 {
+                                            text-decoration: none;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .poster-img-1 {
+                                            height: 500px;
+                                            background-repeat: no-repeat;
+                                        }
+                                        
+                                        .poster-text {
+                                            color: rgb(58, 58, 58);
+                                            font-size: 22px;
+                                        }
+                                        
+                                        .poster-caption {
+                                            margin-bottom: 150px;
+                                        }
+                                        
+                                        .poster-caption-1 {
+                                            margin-bottom: 65px;
+                                            margin-right: 250px;
+                                        }
+                                        
+                                        .poster-title {
+                                            font-size: 50px;
+                                            color: black;
+                                        }
+                                        
+                                        .card-img-top {
+                                            height: 26vh;
+                                        }
+                                        
+                                        .side {
+                                            float: left;
+                                        }
+                                        
+                                        .lbl1 {
+                                            font-size: 20px;
+                                            font-weight: bold;
+                                        }
+                                        
+                                        .addimg {
+                                            border-style: solid;
+                                            border-color: rgb(194, 190, 190);
+                                            border-width: 2px;
+                                        }
+                                        
+                                        .search-btn1 {
+                                            width: 100%;
+                                        }
+                                        /* single Product view csse */
+                                        
+                                        .singleproduct {
+                                            padding-top: 65px;
+                                            padding-bottom: 145px;
+                                            background-color: white;
+                                            padding: 20px;
+                                        }
+                                        
+                                        .product_qty {
+                                            width: 105px;
+                                            height: 45px;
+                                            padding: 7px;
+                                        }
+                                        
+                                        .qty_buttons {
+                                            top: 0;
+                                            right: 0;
+                                            height: 100%;
+                                            width: 30px;
+                                            border: solid 1px #e5e5e5;
+                                            padding: 2px;
+                                        }
+                                        /* .icons {
+                                    margin-left: 100px;
+                                } */
+                                        
+                                        .qty_inc,
+                                        .qty_dec {
+                                            width: 100%;
+                                            height: 50%;
+                                            cursor: pointer;
+                                            justify-content: flex-end;
+                                        }
+                                        
+                                        .qty_inc {
+                                            padding-bottom: 2px;
+                                            border-top-right-radius: 5px;
+                                        }
+                                        
+                                        .qty_dec {
+                                            padding-top: 2px;
+                                            border-bottom-right-radius: 5px;
+                                        }
+                                        /* single Product view csse */
+                                        
+                                        .emptywatchview {
+                                            height: 350px;
+                                            background-image: url("resources/cart/watchlist.webp");
+                                            background-repeat: no-repeat;
+                                            background-position: center;
+                                            background-size: contain;
+                                        }
+                                        
+                                        .emptycart {
+                                            height: 400px;
+                                            background-image: url("resources/cart/cart.webp");
+                                            background-repeat: no-repeat;
+                                            background-position: center;
+                                            background-size: contain;
+                                        }
+                                        
+                                        .invoiceHeaderImg {
+                                            height: 80px;
+                                            background-image: url("resources/logo.svg");
+                                            background-repeat: no-repeat;
+                                            background-size: contain;
+                                        }
+                                        
+                                        .message_box,
+                                        .chat_box {
+                                            height: 500px;
+                                            overflow-y: scroll;
+                                        }
+                                        
+                                        .first_place {
+                                            height: 100px;
+                                            background-image: url("resources/gold1.png");
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size: contain;
+                                        }
+                                        /* / */
+                                        
+                                        .flip-box {
+                                            background-color: transparent;
+                                            width: 280px;
+                                            height: 380px;
+                                            border: 1px solid #f1f1f1;
+                                            perspective: 1000px;
+                                        }
+                                        
+                                        .mobileSp {
+                                            display: none;
+                                        }
+                                        
+                                        .flip-box-inner {
+                                            position: relative;
+                                            width: 100%;
+                                            height: 100%;
+                                            text-align: center;
+                                            transition: transform 0.8s;
+                                            transform-style: preserve-3d;
+                                        }
+                                        
+                                        .flip-box:hover .flip-box-inner {
+                                            transform: rotateY(180deg);
+                                        }
+                                        
+                                        .flip-box-front,
+                                        .flip-box-back {
+                                            position: absolute;
+                                            width: 100%;
+                                            height: 100%;
+                                            -webkit-backface-visibility: hidden;
+                                            backface-visibility: hidden;
+                                            border-radius: 20px;
+                                        }
+                                        
+                                        .flip-box-front {
+                                            background-color: #bbb;
+                                            color: black;
+                                        }
+                                        
+                                        .flip-box-back {
+                                            background-color: dodgerblue;
+                                            color: white;
+                                            transform: rotateY(180deg);
+                                            /* padding-top: 10px; */
+                                        }
+                                        
+                                        .homebackimg {
+                                            position: absolute;
+                                            transform: translateX(-50%);
+                                            background-repeat: no-repeat;
+                                            background-size: contain;
+                                            width: 280px;
+                                            height: 380px;
+                                            border-radius: 20px;
+                                            z-index: -1;
+                                            opacity: 0.5;
+                                            /* background-image: linear-gradient( #1d1d23 50%, rgba(0, 0, 0, 0.28) 20%); */
+                                        }
+                                        
+                                        .c {
+                                            position: absolute;
+                                            top: 50%;
+                                            transform: translateY(-50%);
+                                        }
+                                        
+                                        @media (max-width: 768px) {
+                                            .flip-box {
+                                                height: 410px;
+                                            }
+                                            .mobileSp {
+                                                /* margin-top: 10px; */
+                                                display: block;
+                                            }
+                                            .flip-box:hover .flip-box-inner {
+                                                transform: rotateY(0deg);
+                                            }
+                                            .flip-box-back {
+                                                transform: rotateY(180deg);
+                                                /* padding-top: 10px; */
+                                            }
+                                        }
+                                        /* / */
+                                        
+                                        .invoiceheaderImg {
+                                            height: 150px;
+                                            background-image: url("resources/Logo.png");
+                                            background-repeat: no-repeat;
+                                            background-size: contain;
+                                            background-position: left;
+                                        }
+                                        /* ssssssssssssssssssssssssssssssssss */
+                                        
+                                        #custom-dialog {
+                                            position: fixed;
+                                            top: 50%;
+                                            left: 50%;
+                                            transform: translate(-50%, -50%);
+                                            background-color: white;
+                                            padding: 20px;
+                                            border-radius: 10px;
+                                            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                                            z-index: 999;
+                                        }
+                                        
+                                        .message {
+                                            font-size: 18px;
+                                            margin-bottom: 10px;
+                                        }
+                                        
+                                        .buttons {
+                                            display: flex;
+                                            justify-content: space-between;
+                                        }
+                                        
+                                        #custom-yes,
+                                        #custom-no {
+                                            background-color: blue;
+                                            color: white;
+                                            padding: 10px 20px;
+                                            border-radius: 5px;
+                                            cursor: pointer;
+                                        }
+                                        
+                                        #custom-yes:hover,
+                                        #custom-no:hover {
+                                            background-color: darkblue;
+                                        }
+                                        
+                                        #imgbutton {
+                                            border: none;
+                                        }
+                                        
+                                        #imgbutton:focus {
+                                            outline: 2px solid red;
+                                        }
